@@ -36,7 +36,7 @@ function draw() {
 
   let noiseAmplitude = 100; // 噪音幅度
 
-  let noiseSpeed = 0.05; // 噪音变化速度
+  let noiseSpeed = 0.01; // 噪音变化速度
 
   rNoise = 80 + noiseAmplitude * sin(frameCount * noiseSpeed)
 
